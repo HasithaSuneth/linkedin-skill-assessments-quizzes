@@ -1145,14 +1145,14 @@ export class TruncateDirective{
 export class TruncatePipe implements PipeTransform {
 	transform(value: string, maxLength: number, showEllipsis: boolean){
 		const newValue = maxLength ? value.substr(0, maxLength): value;
-		return showEllipsis ? '${newValue}...` : newValue;
+		return showEllipsis ? '${newValue}...' : newValue;
 	}
 }
 ```
 
-- [ ] {{ 'some long text' | truncate:10 }}
-- [x] {{ 'some long text' | truncate:10:true }}
-- [ ] {{ 'some long text' | truncate }}
+- [ ] `{{ 'some long text' | truncate:10 }}`
+- [x] `'some long text' | truncate:10:true`
+- [ ] `{{ 'some long text' | truncate }}`
 - [ ] all of these answers
 
 [How do I call an Angular 2 pipe with multiple arguments?] (https://stackoverflow.com/questions/36816788/how-do-i-call-an-angular-2-pipe-with-multiple-arguments)
