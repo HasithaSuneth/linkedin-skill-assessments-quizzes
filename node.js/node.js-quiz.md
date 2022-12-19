@@ -43,7 +43,7 @@
 - [x] createReadStream
 - [ ] readFileSync
 
-**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fs_dir_read)
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fscreatereadstreampath-options)
 To minimize memory costs, when possible prefer streaming via fs.createReadStream()._
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
@@ -654,14 +654,7 @@ console.log(person);
 - [ ] to serve as a module to export dependencies
 - [ ] to be a log for the application
 
-#### Q79. How would you determine the number of cluster instances to start when using the cluster module?
-
-- [ ] `const numInstances = process.cpus().length`
-- [ ] `const numInstances = cluster.instances().length`
-- [ ] `const numInstances = cluster.instances()`
-- [ ] `const numInstances = require('os').cpus().length`
-
-#### Q80. What response will you get when you send a get requests to the server with this code?
+#### Q79. What response will you get when you send a get requests to the server with this code?
 
 ```
 const http = require('http');
@@ -683,3 +676,12 @@ server.listen(port, hostname, () => {
 - [ ] `server running at port 3000`
 - [ ] `server running at http://localhost:3000/`
 - [ ] `server running at http://localhost:4000/`
+
+#### Q80. Which choice is not a Node global object?
+
+- [ ] process
+- [ ] exports
+- [ ] setTimeout
+- [x] Buffer
+
+[Refrence](https://www.w3resource.com/node.js/nodejs-global-object.php)

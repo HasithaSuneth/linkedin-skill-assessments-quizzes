@@ -92,6 +92,7 @@ console.log(/* Snippet Here */); //Prints food
 #### Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
 - [ ] `A`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
@@ -113,6 +114,7 @@ for (var i = 1; i <= 4; i++) {
 ```
 
 - [ ] `C`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
@@ -121,7 +123,8 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [X] `D`
+- [x] `D`
+
 ```js
 for (var i = 1; i <= 4; i++) {
   (function (j) {
@@ -156,7 +159,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x]
+- [x] `A`
 
 ```js
 let discountPrice = function (price) {
@@ -164,7 +167,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ]
+- [ ] `B`
 
 ```js
 let discountPrice(price) {
@@ -172,7 +175,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `C`
 
 ```js
 let function = discountPrice(price) {
@@ -180,7 +183,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] `D`
 
 ```js
 discountPrice = function (price) {
@@ -1949,6 +1952,8 @@ console.log(json); // print {"type":"tiger"}
 - [ ] `JSON.stringify(cat);`
 - [ ] `JSON.stringify(cat, /type/);`
 
+[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
+
 #### Q140. Which document method is not used to get a reference to a DOM node?
 
 - [x] document.getNode();
@@ -1958,22 +1963,7 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
-
-```js
-let cat = { type: 'tiger', size: 'large' };
-let json = /_ Snippet Here _/;
-console.log(json); //prints {"type": "tiger"}
-```
-
-- [ ] `JSON.sringify(cat);`
-- [x] `JSON.sringify(cat, ["type"]);`
-- [ ] `JSON.sringify(cat, /type/);`
-- [ ] `cat.toJSON("type");`
-
-[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
-
-#### Q142. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+#### Q141. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
 
 - [ ] node
 - [ ] instance variable
@@ -1982,14 +1972,14 @@ console.log(json); //prints {"type": "tiger"}
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
 
-#### Q143. Which of the following are not server-side Javascript objects?
+#### Q142. Which of the following are not server-side Javascript objects?
 
 - [ ] Date
 - [ ] FileUpload
 - [ ] Function
 - [x] All of the above
 
-#### Q144. What will be the output of the following code snippet?
+#### Q143. What will be the output of the following code snippet?
 
 ```javascript
 const obj1 = { first: 20, second: 30, first: 50 };
@@ -2001,21 +1991,21 @@ console.log(obj1);
 - [ ] first: 30 , second: 20
 - [ ] None of the above
 
-#### Q145. Which object in Javascript doesn’t have a prototype?
+#### Q144. Which object in Javascript doesn’t have a prototype?
 
 - [x] Base Object
 - [ ] All objects have prototype
 - [ ] None of the objects have prototype
 - [ ] None of the above
 
-#### Q146. What does … operator do in JS?
+#### Q145. What does … operator do in JS?
 
 - [x] Used to spread iterables to individual elements
 - [ ] Describe datatype of undefined
 - [ ] No such operator exists
 - [ ] None of the above
 
-#### Q147. How to stop an interval timer in Javascript?
+#### Q146. How to stop an interval timer in Javascript?
 
 - [x] clearInterval
 - [ ] clearTimer
@@ -2024,7 +2014,7 @@ console.log(obj1);
 
 [Reference](https://www.interviewbit.com/javascript-mcq/)
 
-#### Q148. What will be the output of the following code snippet?
+#### Q147. What will be the output of the following code snippet?
 
 ```javascript
 print(typeof NaN);
@@ -2035,7 +2025,7 @@ print(typeof NaN);
 - [ ] String
 - [ ] None of the above
 
-#### Q149. What will be the output of the following code snippet?
+#### Q148. What will be the output of the following code snippet?
 
 ```javascript
 <script type="text/javascript">a = 5 + "9"; document.write(a);</script>
@@ -2046,7 +2036,7 @@ print(typeof NaN);
 - [ ] Runtime Error
 - [x] 59
 
-#### Q150. Which of the following methods can be used to display data in some form using Javascript?
+#### Q149. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
